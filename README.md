@@ -10,41 +10,48 @@ The **Aeon** ecosystem is our open-source infrastructure: distributed sync, coll
 - **HuggingFace**: [huggingface.co/affectively-ai](https://huggingface.co/affectively-ai)
 - **GitHub**: [github.com/affectively-ai](https://github.com/affectively-ai)
 
+## Fine-Tuned Models
+
+| Model | Task | Base | Format | HuggingFace |
+|-------|------|------|--------|-------------|
+| Cog | DevOps intelligence — incident response, deployment decisions, system management | SmolLM2-360M-Instruct | GGUF (Q4_K_M, Q8_0) | [cog-360m-instruct-gguf](https://huggingface.co/affectively/cog-360m-instruct-gguf) |
+| Cyrano | Emotional intelligence — empathetic responses, emotion detection, coping strategies | SmolLM2-360M-Instruct | GGUF (Q4_K_M, Q8_0) | [cyrano-360m-instruct-gguf](https://huggingface.co/affectively/cyrano-360m-instruct-gguf) |
+
 ## Browser AI Models (ONNX)
 
 Production-ready ONNX models for in-browser inference with [transformers.js](https://huggingface.co/docs/transformers.js). All models run entirely client-side.
 
 | Model | Task | Size | HuggingFace |
 |-------|------|------|-------------|
-| RoBERTa GoEmotions | Emotion detection (28 labels) | ~124 MB | [roberta-base-go-emotions-onnx](https://huggingface.co/affectively-ai/roberta-base-go-emotions-onnx) |
+| BART-Large CNN | Text summarization | ~493 MB | [bart-large-cnn-onnx](https://huggingface.co/affectively-ai/bart-large-cnn-onnx) |
+| DeBERTa v3 Zero-Shot | Zero-shot classification | ~243 MB | [deberta-v3-base-mnli-onnx](https://huggingface.co/affectively-ai/deberta-v3-base-mnli-onnx) |
 | DistilBERT Emotion | Emotion classification (6 labels) | ~67 MB | [distilbert-base-uncased-emotion-onnx](https://huggingface.co/affectively-ai/distilbert-base-uncased-emotion-onnx) |
 | DistilRoBERTa Emotion | Emotion classification (7 labels) | ~82 MB | [emotion-english-distilroberta-base-onnx](https://huggingface.co/affectively-ai/emotion-english-distilroberta-base-onnx) |
-| Twitter RoBERTa Sentiment | Sentiment analysis (3-class) | ~124 MB | [twitter-roberta-base-sentiment-onnx](https://huggingface.co/affectively-ai/twitter-roberta-base-sentiment-onnx) |
-| DeBERTa v3 Zero-Shot | Zero-shot classification | ~243 MB | [deberta-v3-base-mnli-onnx](https://huggingface.co/affectively-ai/deberta-v3-base-mnli-onnx) |
-| BART-Large CNN | Text summarization | ~493 MB | [bart-large-cnn-onnx](https://huggingface.co/affectively-ai/bart-large-cnn-onnx) |
 | NLLB-200 1.3B | Translation (200 languages) | ~1.81 GB | [nllb-200-1.3B-onnx](https://huggingface.co/affectively-ai/nllb-200-1.3B-onnx) |
 | NLLB-200 Distilled 1.3B | Translation (200 languages) | ~1.81 GB | [nllb-200-distilled-1.3B-onnx](https://huggingface.co/affectively-ai/nllb-200-distilled-1.3B-onnx) |
+| RoBERTa GoEmotions | Emotion detection (28 labels) | ~124 MB | [roberta-base-go-emotions-onnx](https://huggingface.co/affectively-ai/roberta-base-go-emotions-onnx) |
+| Twitter RoBERTa Sentiment | Sentiment analysis (3-class) | ~124 MB | [twitter-roberta-base-sentiment-onnx](https://huggingface.co/affectively-ai/twitter-roberta-base-sentiment-onnx) |
 
 ## Aeon Ecosystem
 
 | Project | Description |
 |---------|-------------|
+| [Aegis](https://github.com/affectively-ai/aeon-auth) | Zero-dependency decentralized identity and access control built on Web Crypto API. UCAN capabilities, DID resolution, ECDSA signatures, and XPath-like node selection for surgical data-tree authorization. |
 | [Aeon](https://github.com/affectively-ai/aeon) | Distributed synchronization, schema versioning, and conflict resolution for real-time collaborative applications. |
 | [Aeon Flux](https://github.com/affectively-ai/aeon-flux) | Collaborative page surface with CRDT-based flux state, Edge Side Inference (ESI), and zero-CLS rendering. Pages that think. |
 | [Aeon Flux Capacitor](https://github.com/affectively-ai/aeon-flux-capacitor) | Embedding-first collaborative WYSIWYG editor where text is a derivative of the vector space. |
-| [Aeon Foundation](https://github.com/affectively-ai/aeon-foundation) | The complete Aeon stack in one package: distributed sync, collaborative pages, state management, relay transport, edge AI, neural graph database, and decentralized auth. |
-| [Aeon Shell](https://github.com/affectively-ai/aeon-shell) | Local-first operating surface hosting live shell canvas, graph runtime, route-aware surfaces, and native `aeon://` addressing. |
-| [Aeon Shell Core](https://github.com/affectively-ai/aeon-shell-core) | Canonical runtime surface for shell consumers with host/plugin orchestration and engine registry security boundaries. |
-| [Aeon TUI](https://github.com/affectively-ai/aeon-tui) | Ink-based terminal runtime with behavior parity to the Aeon shell, command palette flows, and integrated PTY panes. |
-| [Aeon Stack](https://github.com/affectively-ai/aeon-stack) | Zero-dependency performance layer with measured vertical stack windowing, velocity-adaptive overscan, DOM collapse, and speculative rendering. |
 | [Aeon Forge](https://github.com/affectively-ai/aeon-forge) | Shared deployment and routing primitives for deploy-planning surfaces and the Forge CLI/CD system. |
-| [Aeon IDE](https://github.com/affectively-ai/aeon-ide) | IDE integrations and developer experience tooling for Aeon. |
-| [Aeon Icons](https://github.com/affectively-ai/aeon-icons) | Icon library for Aeon web and native applications. |
-| [Goodchild](https://github.com/affectively-ai/aeon-flags) | UCAN-enforced feature gating daemon at the edge. Replaces centralized feature flag SaaS (LaunchDarkly, CloudBees) with deterministic, cryptographic entitlements. |
+| [Aeon Foundation](https://github.com/affectively-ai/aeon-foundation) | The complete Aeon stack in one package: distributed sync, collaborative pages, state management, relay transport, edge AI, neural graph database, and decentralized auth. |
 | [Aeon IAM](https://github.com/affectively-ai/aeon-iam) | Device-rooted UCAN identity and access management orchestration. |
+| [Aeon Icons](https://github.com/affectively-ai/aeon-icons) | Icon library for Aeon web and native applications. |
+| [Aeon IDE](https://github.com/affectively-ai/aeon-ide) | IDE integrations and developer experience tooling for Aeon. |
 | [Aeon Invite](https://github.com/affectively-ai/aeon-invite) | Beta shield, invite codes, waitlist management, and funnel analytics for controlled rollouts. |
 | [Aeon Preferences](https://github.com/affectively-ai/aeon-preferences) | Federated user preferences via Dash DB. |
-| [Aegis](https://github.com/affectively-ai/aeon-auth) | Zero-dependency decentralized identity and access control built on Web Crypto API. UCAN capabilities, DID resolution, ECDSA signatures, and XPath-like node selection for surgical data-tree authorization. |
+| [Aeon Shell](https://github.com/affectively-ai/aeon-shell) | Local-first operating surface hosting live shell canvas, graph runtime, route-aware surfaces, and native `aeon://` addressing. |
+| [Aeon Shell Core](https://github.com/affectively-ai/aeon-shell-core) | Canonical runtime surface for shell consumers with host/plugin orchestration and engine registry security boundaries. |
+| [Aeon Stack](https://github.com/affectively-ai/aeon-stack) | Zero-dependency performance layer with measured vertical stack windowing, velocity-adaptive overscan, DOM collapse, and speculative rendering. |
+| [Aeon TUI](https://github.com/affectively-ai/aeon-tui) | Ink-based terminal runtime with behavior parity to the Aeon shell, command palette flows, and integrated PTY panes. |
+| [Goodchild](https://github.com/affectively-ai/aeon-flags) | UCAN-enforced feature gating daemon at the edge. Replaces centralized feature flag SaaS (LaunchDarkly, CloudBees) with deterministic, cryptographic entitlements. |
 
 ## Local-First Data and Edge
 
@@ -52,9 +59,9 @@ Production-ready ONNX models for in-browser inference with [transformers.js](htt
 |---------|-------------|
 | [Dash](https://github.com/affectively-ai/dash) | Multi-layer edge storage and CRDT sync engine supporting Yjs, Automerge, WebSocket, WebTransport, and WebRTC. |
 | [Dash CLI](https://github.com/affectively-ai/dash-cli) | The sovereign, local-first database for your command line. |
-| [Neural](https://github.com/affectively-ai/neural) | Distributed monorepo for neural/AI infrastructure. |
 | [Edgework CLI](https://github.com/affectively-ai/edgework-cli) | CLI for edgework.ai — accessible AI at the edge. |
 | [Edgework SDK](https://github.com/affectively-ai/edgework-sdk) | SDK for building edgework.ai integrations. |
+| [Neural](https://github.com/affectively-ai/neural) | Distributed monorepo for neural/AI infrastructure. |
 | [Zedge](https://github.com/affectively-ai/zedge) | Companion sidecar with inference bridge and compute pool node functionality. |
 
 ## Orchestration and Protocols
@@ -62,11 +69,9 @@ Production-ready ONNX models for in-browser inference with [transformers.js](htt
 | Project | Description |
 |---------|-------------|
 | [MCP Framework](https://github.com/affectively-ai/mcp-framework) | Framework for building Model Context Protocol servers with authentication, tool registration, and analytics. |
-| [Workflows](https://github.com/affectively-ai/workflows) | Production-grade workflow orchestration and composition engine for autonomous agents and CI/CD pipelines. |
 | [Orchestrator](https://github.com/affectively-ai/orchestrator) | Task orchestration and agent coordination engine. |
 | [Slash Commands](https://github.com/affectively-ai/slash-commands) | Slash command framework for conversational interfaces. |
-
-## Security and Identity
+| [Workflows](https://github.com/affectively-ai/workflows) | Production-grade workflow orchestration and composition engine for autonomous agents and CI/CD pipelines. |
 
 ## Data and Taxonomy
 
@@ -89,6 +94,9 @@ High-performance Rust modules compiled to WebAssembly for near-native speed in t
 
 | Module | Description |
 |--------|-------------|
+| [Confetti Physics](https://github.com/affectively-ai/confetti-physics) | Physics-based confetti celebrations with fluid dynamics, haptic feedback, and procedural audio. |
+| [Entrainment Audio](https://github.com/affectively-ai/entrainment-audio) | Audio entrainment and binaural beat generation. |
+| [Synthetic Watermark](https://github.com/affectively-ai/synthetic-watermark) | Watermarking for synthetic/AI-generated content. |
 | [wasm-analytics-engine](https://github.com/affectively-ai/wasm-analytics-engine) | Metrics computation, event processing, and funnel analytics. |
 | [wasm-audio-processor](https://github.com/affectively-ai/wasm-audio-processor) | Audio mixing, volume adjustment, silence generation, and µ-law encoding. |
 | [wasm-cache-ops](https://github.com/affectively-ai/wasm-cache-ops) | Batch caching, LZ4-style compression, eviction policies, and hashing. |
@@ -98,16 +106,13 @@ High-performance Rust modules compiled to WebAssembly for near-native speed in t
 | [wasm-graph-algorithms](https://github.com/affectively-ai/wasm-graph-algorithms) | Cycle detection, DAG operations, pathfinding (Dijkstra/A*), and topological sort. |
 | [wasm-image-utils](https://github.com/affectively-ai/wasm-image-utils) | Base64 encoding/decoding, format detection, and image validation. |
 | [wasm-text-processor](https://github.com/affectively-ai/wasm-text-processor) | Pattern matching, entity extraction, and text scoring. |
-| [Confetti Physics](https://github.com/affectively-ai/confetti-physics) | Physics-based confetti celebrations with fluid dynamics, haptic feedback, and procedural audio. |
-| [Synthetic Watermark](https://github.com/affectively-ai/synthetic-watermark) | Watermarking for synthetic/AI-generated content. |
-| [Entrainment Audio](https://github.com/affectively-ai/entrainment-audio) | Audio entrainment and binaural beat generation. |
 
 ## Documentation
 
 | Project | Description |
 |---------|-------------|
-| [Monorepo](https://github.com/affectively-ai/monorepo) | Primary development monorepo for the AFFECTIVELY platform. |
 | [AFFECTIVELY Wiki](https://github.com/affectively-ai/emotions-wiki) | Project wiki and knowledge base. |
+| [Monorepo](https://github.com/affectively-ai/monorepo) | Primary development monorepo for the AFFECTIVELY platform. |
 | [Neural Wiki](https://github.com/affectively-ai/neutral-wiki) | Neural project documentation. |
 
 ## Installation
