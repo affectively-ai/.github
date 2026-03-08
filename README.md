@@ -2,16 +2,16 @@
 
 Welcome to the **AFFECTIVELY** open-source ecosystem. We are dedicated to democratizing affective intelligence, ensuring that the future of AI is emotionally resonant, ethically grounded, and technically robust.
 
-## 🚀 Core Packages
+## Core Packages
 
 We have open-sourced **12 key components** of our platform, available on GitHub and npm.
 
-### 🧠 Data & Taxonomy
+### Data & Taxonomy
 | Package | GitHub | Description |
 |---------|--------|-------------|
 | **@affectively/behavioral-taxonomy** | [affectively-ai/behavioral-taxonomy](https://github.com/affectively-ai/behavioral-taxonomy) | 1,140+ behavioral loops, emotions, cognitive biases, and personality traits. Licensed under CC-BY-4.0. |
 
-### ⚡ WebAssembly (WASM) Modules
+### WebAssembly (WASM) Modules
 High-performance Rust modules compiled to WASM for near-native speed in the browser and Node.js.
 
 | Package | GitHub | Description |
@@ -24,7 +24,7 @@ High-performance Rust modules compiled to WASM for near-native speed in the brow
 | **@affectively/wasm-cache-ops** | [wasm-cache-ops](https://github.com/affectively-ai/wasm-cache-ops) | Batch caching operations, compression (LZ4-style), and eviction policies. |
 | **@affectively/wasm-image-utils** | [wasm-image-utils](https://github.com/affectively-ai/wasm-image-utils) | Fast Base64 encoding/decoding, format detection, and validation. |
 
-### 🛠️ Frameworks & Tools
+### Frameworks & Tools
 Developer tools to build empathetic and robust AI systems.
 
 | Package | GitHub | Description |
@@ -34,7 +34,7 @@ Developer tools to build empathetic and robust AI systems.
 | **@affectively/devops-scripts** | [devops-scripts](https://github.com/affectively-ai/devops-scripts) | Monorepo automation: changed-file testing, type-checking, and accessibility audits. |
 | **@affectively/utils** | [utils](https://github.com/affectively-ai/utils) | Essential utilities: API retry logic, consistent logging, and short URL generation. |
 
-## 📦 Installation
+## Installation
 
 All packages are available on npm under the `@affectively` scope.
 
@@ -44,7 +44,7 @@ npm install @affectively/behavioral-taxonomy
 npm install @affectively/mcp-framework
 ```
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Each repository has its own contribution guidelines.
 1. Fork the repository
@@ -53,12 +53,12 @@ We welcome contributions! Each repository has its own contribution guidelines.
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 - **Code Packages**: MIT License
 - **Data Packages** (Behavioral Taxonomy): Creative Commons Attribution 4.0 (CC BY 4.0)
 
-## 🧠 Browser AI Models (ONNX)
+## Browser AI Models (ONNX)
 
 We convert, quantize, and publish production-ready ONNX models for in-browser inference with [transformers.js](https://huggingface.co/docs/transformers.js). All models on [HuggingFace](https://huggingface.co/affectively-ai).
 
@@ -73,7 +73,7 @@ We convert, quantize, and publish production-ready ONNX models for in-browser in
 | [nllb-200-1.3B-onnx](https://huggingface.co/affectively-ai/nllb-200-1.3B-onnx) | Translation (200 languages) | ~1.81 GB |
 | [nllb-200-distilled-1.3B-onnx](https://huggingface.co/affectively-ai/nllb-200-distilled-1.3B-onnx) | Translation (200 languages) | ~1.81 GB |
 
-## 🔗 Links
+## Links
 
 - **Website**: [aeonflux.dev](https://aeonflux.dev)
 - **Documentation**: [docs.aeonflux.dev](https://docs.aeonflux.dev)
@@ -82,4 +82,4 @@ We convert, quantize, and publish production-ready ONNX models for in-browser in
 - **GitHub**: [github.com/affectively-ai](https://github.com/affectively-ai)
 
 ---
-Made with ❤️ by [AFFECTIVELY](https://aeonflux.dev)
+Made by [AFFECTIVELY](https://aeonflux.dev)
