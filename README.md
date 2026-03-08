@@ -58,5 +58,28 @@ We welcome contributions! Each repository has its own contribution guidelines.
 - **Code Packages**: MIT License
 - **Data Packages** (Behavioral Taxonomy): Creative Commons Attribution 4.0 (CC BY 4.0)
 
+## 🧠 Browser AI Models (ONNX)
+
+We convert, quantize, and publish production-ready ONNX models for in-browser inference with [transformers.js](https://huggingface.co/docs/transformers.js). All models on [HuggingFace](https://huggingface.co/affectively-ai).
+
+| Model | Task | Size |
+|-------|------|------|
+| [roberta-base-go-emotions-onnx](https://huggingface.co/affectively-ai/roberta-base-go-emotions-onnx) | Emotion detection (28 labels) | ~124 MB |
+| [distilbert-base-uncased-emotion-onnx](https://huggingface.co/affectively-ai/distilbert-base-uncased-emotion-onnx) | Emotion classification (6 labels) | ~67 MB |
+| [emotion-english-distilroberta-base-onnx](https://huggingface.co/affectively-ai/emotion-english-distilroberta-base-onnx) | Emotion classification (7 labels) | ~82 MB |
+| [twitter-roberta-base-sentiment-onnx](https://huggingface.co/affectively-ai/twitter-roberta-base-sentiment-onnx) | Sentiment analysis (3-class) | ~124 MB |
+| [deberta-v3-base-mnli-onnx](https://huggingface.co/affectively-ai/deberta-v3-base-mnli-onnx) | Zero-shot classification | ~243 MB |
+| [bart-large-cnn-onnx](https://huggingface.co/affectively-ai/bart-large-cnn-onnx) | Text summarization | ~493 MB |
+| [nllb-200-1.3B-onnx](https://huggingface.co/affectively-ai/nllb-200-1.3B-onnx) | Translation (200 languages) | ~1.81 GB |
+| [nllb-200-distilled-1.3B-onnx](https://huggingface.co/affectively-ai/nllb-200-distilled-1.3B-onnx) | Translation (200 languages) | ~1.81 GB |
+
+## 🔗 Links
+
+- **Website**: [aeonflux.dev](https://aeonflux.dev)
+- **Documentation**: [docs.aeonflux.dev](https://docs.aeonflux.dev)
+- **Storybook**: [storybook.aeonflux.dev](https://storybook.aeonflux.dev)
+- **HuggingFace**: [huggingface.co/affectively-ai](https://huggingface.co/affectively-ai)
+- **GitHub**: [github.com/affectively-ai](https://github.com/affectively-ai)
+
 ---
-Made with ❤️ by [AFFECTIVELY](https://affectively.app)
+Made with ❤️ by [AFFECTIVELY](https://aeonflux.dev)
