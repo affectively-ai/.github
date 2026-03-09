@@ -77,7 +77,7 @@ Production-ready ONNX models for in-browser inference with [transformers.js](htt
 
 | Project | Description |
 |---------|-------------|
-| [Behavioral Taxonomy](https://github.com/affectively-ai/behavioral-taxonomy) | 1,140+ behavioral loops, emotions, cognitive biases, and personality traits. Licensed CC-BY-4.0. |
+| [Behavioral Taxonomy](https://github.com/affectively-ai/behavioral-taxonomy) | 1,619 entries: 239 emotions, 1,140 behavioral loops, 123 cognitive biases, 29 personality traits, 17 bias mechanisms, 16 breathing techniques, and more. Licensed CC-BY-4.0. Also on [HuggingFace](https://huggingface.co/datasets/buley/behavioral-taxonomy). |
 | [Utils](https://github.com/affectively-ai/utils) | API retry logic, consistent logging, and short URL generation. |
 
 ## Developer Tooling
