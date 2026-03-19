@@ -8,14 +8,15 @@ The **Aeon** ecosystem is our open-source infrastructure: distributed sync, coll
 - **Documentation**: [docs.aeonflux.dev](https://docs.aeonflux.dev)
 - **Storybook**: [storybook.aeonflux.dev](https://storybook.aeonflux.dev)
 - **HuggingFace**: [huggingface.co/affectively-ai](https://huggingface.co/affectively-ai)
-- **GitHub**: [github.com/affectively-ai](https://github.com/affectively-ai)
+- **GitHub**: [github.com/forkjoin-ai](https://github.com/forkjoin-ai)
 
 ## Fine-Tuned Models
 
 | Model | Task | Base | Format | HuggingFace |
 |-------|------|------|--------|-------------|
-| Cog | DevOps intelligence — incident response, deployment decisions, system management | SmolLM2-360M-Instruct | GGUF (Q4_K_M, Q8_0) | [cog-360m-instruct-gguf](https://huggingface.co/affectively/cog-360m-instruct-gguf) |
-| Cyrano | Emotional intelligence — empathetic responses, emotion detection, coping strategies | SmolLM2-360M-Instruct | GGUF (Q4_K_M, Q8_0) | [cyrano-360m-instruct-gguf](https://huggingface.co/affectively/cyrano-360m-instruct-gguf) |
+| Cog | DevOps intelligence -- incident response, deployment decisions, system management | SmolLM2-360M-Instruct | GGUF (Q4_K_M, Q8_0) | [cog-360m-instruct-gguf](https://huggingface.co/affectively/cog-360m-instruct-gguf) |
+| Cyrano | Emotional intelligence -- empathetic responses, emotion detection, coping strategies | SmolLM2-360M-Instruct | GGUF (Q4_K_M, Q8_0) | [cyrano-360m-instruct-gguf](https://huggingface.co/affectively/cyrano-360m-instruct-gguf) |
+| Gnosis 360M | GGL topology generation from natural language | SmolLM2-360M-Instruct | GGUF | [gnosis-360m-topology](https://github.com/forkjoin-ai/gnosis-360m-topology) |
 
 ## Browser AI Models (ONNX)
 
@@ -140,5 +141,59 @@ We welcome contributions! Each repository has its own contribution guidelines.
 - **Data Packages**: Creative Commons Attribution 4.0 (CC BY 4.0)
 - **ONNX Models**: Same license as base model (see individual model cards)
 
+## Acknowledgments
+
+This project is built on the shoulders of extraordinary open-source work. We are grateful to every maintainer, contributor, and community behind the tools we depend on.
+
+**Core Frameworks**
+[React](https://react.dev) | [React DOM](https://react.dev) | [React Native](https://reactnative.dev) | [Hono](https://hono.dev) | [Express](https://expressjs.com) | [Vite](https://vite.dev) | [Bun](https://bun.sh) | [Nx](https://nx.dev)
+
+**Collaborative Editing**
+[Yjs](https://yjs.dev) -- the CRDT engine behind all our real-time collaboration | [y-websocket](https://github.com/yjs/y-websocket) | [y-webrtc](https://github.com/nicoth-in/y-webrtc)
+
+**3D and Visualization**
+[Three.js](https://threejs.org) | [React Three Fiber](https://docs.pmnd.rs/react-three-fiber) | [Drei](https://github.com/pmndrs/drei) | [Postprocessing](https://github.com/pmndrs/postprocessing) | [Troika](https://protectwise.github.io/troika/) | [Framer Motion](https://www.framer.com/motion/) | [D3](https://d3js.org) | [Recharts](https://recharts.org)
+
+**AI and Inference**
+[Vercel AI SDK](https://sdk.vercel.ai) | [ONNX Runtime Web](https://onnxruntime.ai) | [TensorFlow.js](https://www.tensorflow.org/js) | [MediaPipe](https://mediapipe.dev) | [Transformers.js](https://huggingface.co/docs/transformers.js) | [Model Context Protocol SDK](https://modelcontextprotocol.io)
+
+**Validation and Data**
+[Zod](https://zod.dev) -- schema validation across 21 packages | [zod-to-json-schema](https://github.com/StefanTerdell/zod-to-json-schema)
+
+**Edge and Cloud**
+[Cloudflare Workers](https://workers.cloudflare.com) | [itty-router](https://itty.dev) | [Hono](https://hono.dev) | [Firebase](https://firebase.google.com) | [Google Cloud](https://cloud.google.com) | [Stripe](https://stripe.com) | [Upstash Redis](https://upstash.com)
+
+**Terminal and CLI**
+[Ink](https://github.com/vadimdemedes/ink) | [Commander](https://github.com/tj/commander.js) | [Pastel](https://github.com/vadimdemedes/pastel)
+
+**Observability**
+[OpenTelemetry](https://opentelemetry.io) -- 26 packages for distributed tracing and instrumentation | [Sentry](https://sentry.io)
+
+**Blockchain and Cryptography**
+[viem](https://viem.sh) | [ethers](https://ethers.org) | [jose](https://github.com/panva/jose) | [ucans](https://github.com/ucan-wg/ts-ucan) | [Noble Curves](https://github.com/paulmillr/noble-curves)
+
+**Content and Rendering**
+[react-markdown](https://github.com/remarkjs/react-markdown) | [Mermaid](https://mermaid.js.org) | [KaTeX](https://katex.org) | [Marked](https://marked.js.org) | [Storybook](https://storybook.js.org)
+
+**Mobile**
+[Expo](https://expo.dev) | [React Navigation](https://reactnavigation.org) | [React Native Gesture Handler](https://docs.swmansion.com/react-native-gesture-handler/) | [React Native Reanimated](https://docs.swmansion.com/react-native-reanimated/) | [Tauri](https://tauri.app)
+
+**Data and Storage**
+[localforage](https://localforage.github.io/localForage/) | [Dexie](https://dexie.org) | [isomorphic-git](https://isomorphic-git.org) | [level](https://github.com/Level/level)
+
+**Formal Verification**
+[Lean 4](https://lean-lang.org) | [Mathlib](https://leanprover-community.github.io/mathlib4_docs/) | [TLA+](https://lamport.azurewebsites.net/tla/tla.html)
+
+**Build and Dev**
+[TypeScript](https://www.typescriptlang.org) | [ESLint](https://eslint.org) | [Prettier](https://prettier.io) | [Tailwind CSS](https://tailwindcss.com) | [PostCSS](https://postcss.org) | [SWC](https://swc.rs) | [esbuild](https://esbuild.github.io)
+
+**Utilities**
+[date-fns](https://date-fns.org) | [rxjs](https://rxjs.dev) | [zustand](https://zustand-demo.pmnd.rs) | [SWR](https://swr.vercel.app) | [QuickJS](https://bellard.org/quickjs/) | [sharp](https://sharp.pixelplumbing.com) | [Puppeteer](https://pptr.dev)
+
+**Audio**
+[Tone.js](https://tonejs.github.io) | [lamejs](https://github.com/zhuker/lamejs) | [standardized-audio-context](https://github.com/nicoth-in/standardized-audio-context) | [hls.js](https://github.com/video-dev/hls.js)
+
+To every person who has filed a bug, reviewed a PR, written documentation, or maintained a package we depend on: thank you. Open source is the foundation everything here is built on.
+
 ---
-Made by [AFFECTIVELY](https://aeonflux.dev)
+Made by [forkjoin.ai](https://aeonflux.dev)
