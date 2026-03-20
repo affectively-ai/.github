@@ -1,0 +1,6 @@
+{
+  "name": "CLA Assistant",
+  "description": "Requires contributors to sign the Fork Join AI CLA before merging. Signatures stored centrally in forkjoin-ai/.github.",
+  "iconName": "shield-check",
+  "categories": ["Automation"]
+}
