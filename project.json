@@ -1,0 +1,67 @@
+{
+  "name": "open-source-dot-github",
+  "projectType": "library",
+  "sourceRoot": "open-source/.github",
+  "tags": [
+    "scope:open-source",
+    "type:lib"
+  ],
+  "targets": {
+    "build": {
+      "executor": "a0:run-commands",
+      "options": {
+        "command": "node scripts/open-source-repo-target.mjs build open-source/.github",
+        "cwd": "."
+      }
+    },
+    "lint": {
+      "executor": "a0:run-commands",
+      "options": {
+        "command": "node scripts/open-source-repo-target.mjs lint open-source/.github",
+        "cwd": "."
+      }
+    },
+    "test": {
+      "executor": "a0:run-commands",
+      "options": {
+        "command": "node scripts/open-source-repo-target.mjs test open-source/.github",
+        "cwd": "."
+      }
+    },
+    "typecheck": {
+      "executor": "a0:run-commands",
+      "options": {
+        "command": "node scripts/open-source-repo-target.mjs typecheck open-source/.github",
+        "cwd": "."
+      }
+    },
+    "github:push": {
+      "executor": "a0:run-commands",
+      "options": {
+        "command": "node scripts/open-source-repo-target.mjs github-push open-source/.github",
+        "cwd": "."
+      }
+    },
+    "forge:push": {
+      "executor": "a0:run-commands",
+      "options": {
+        "command": "node scripts/open-source-repo-target.mjs forge-push open-source/.github",
+        "cwd": "."
+      }
+    },
+    "push": {
+      "executor": "a0:run-commands",
+      "options": {
+        "command": "node scripts/open-source-repo-target.mjs push open-source/.github",
+        "cwd": "."
+      }
+    },
+    "submodule:update-reference": {
+      "executor": "a0:run-commands",
+      "options": {
+        "command": "node scripts/open-source-repo-target.mjs submodule-update-reference open-source/.github",
+        "cwd": "."
+      }
+    }
+  }
+}
