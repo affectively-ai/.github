@@ -1,0 +1,9 @@
+{
+  "id": "open-source-software",
+  "packageName": "@forkjoin/open-source",
+  "category": "research-projects",
+  "title": "Open-Source Software",
+  "whatItIs": "Research project hub linking to the canonical Forkjoin open-source GitHub organization.",
+  "url": "https://github.com/forkjoin-ai",
+  "priority": 100
+}
