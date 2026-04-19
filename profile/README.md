@@ -63,7 +63,7 @@ Production-ready ONNX models for in-browser inference with [transformers.js](htt
 | [Aeon Stack](https://github.com/forkjoin-ai/aeon-stack) | `@a0n/aeon-stack` | MIT | Zero-dependency performance layer with measured vertical stack windowing, velocity-adaptive overscan, DOM collapse, and speculative rendering. |
 | [Aeon TUI](https://github.com/forkjoin-ai/aeon-tui) | -- | MIT | Ink-based terminal runtime with behavior parity to the Aeon shell, command palette flows, and integrated PTY panes. |
 | [Aeon Viz](https://github.com/forkjoin-ai/aeon-viz) | `@a0n/aeon-viz` | MIT | Graph visualization and topology rendering for Aeon structures. |
-| [Aegis (Aeon Auth)](https://github.com/forkjoin-ai/aeon-auth) | `@affectively/auth` | MIT | Zero-dependency decentralized identity and access control built on Web Crypto API. UCAN capabilities, DID resolution, and ECDSA signatures. |
+| [Aegis (Aeon Auth)](https://github.com/forkjoin-ai/aeon-auth) | `@a0n/auth` | MIT | Zero-dependency decentralized identity and access control built on Web Crypto API. UCAN capabilities, DID resolution, and ECDSA signatures. |
 | [Gnosis](https://github.com/forkjoin-ai/gnosis) | `@a0n/gnosis` | MIT | GGL topology compiler, recursive coarsening synthesis, and FlowFrame rendering engine. |
 | [Goodchild (Aeon Flags)](https://github.com/forkjoin-ai/aeon-flags) | `@a0n/aeon-flags` | MIT | UCAN-enforced feature gating at the edge. Deterministic, cryptographic entitlements replacing centralized feature flag SaaS. |
 | [X-Gnosis](https://github.com/forkjoin-ai/x-gnosis) | `@affectively/x-gnosis` | MIT | Extended Gnosis runtime with cross-topology linking and federated graph operations. |
@@ -85,7 +85,7 @@ Production-ready ONNX models for in-browser inference with [transformers.js](htt
 
 | Package | npm | License | Description |
 |---------|-----|---------|-------------|
-| [MCP Framework](https://github.com/forkjoin-ai/mcp-framework) | `@affectively/mcp-framework` | MIT | Framework for building Model Context Protocol servers with authentication, tool registration, and analytics. |
+| [MCP Framework](https://github.com/forkjoin-ai/mcp-framework) | `@a0n/mcp-framework` | MIT | Framework for building Model Context Protocol servers with authentication, tool registration, and analytics. |
 | [Orchestrator](https://github.com/forkjoin-ai/orchestrator) | -- | MIT | Task orchestration and agent coordination engine. |
 | [Slash Commands](https://github.com/forkjoin-ai/slash-commands) | -- | MIT | Slash command framework for conversational interfaces. |
 | [Workflows](https://github.com/forkjoin-ai/workflows) | `@affectively/orchestrator` | MIT | Production-grade workflow orchestration and composition engine for autonomous agents and CI/CD pipelines. |
@@ -112,7 +112,7 @@ High-performance Rust modules compiled to WebAssembly for near-native speed in t
 
 | Module | npm | License | Description |
 |--------|-----|---------|-------------|
-| [Confetti Physics](https://github.com/forkjoin-ai/confetti-physics) | `@affectively/confetti-physics` | MIT | Physics-based confetti celebrations with fluid dynamics, haptic feedback, and procedural audio. |
+| [Confetti Physics](https://github.com/forkjoin-ai/confetti-physics) | `@a0n/confetti-physics` | MIT | Physics-based confetti celebrations with fluid dynamics, haptic feedback, and procedural audio. |
 | [Entrainment Audio](https://github.com/forkjoin-ai/entrainment-audio) | -- | MIT | Audio entrainment and binaural beat generation. |
 | [Synthetic Watermark](https://github.com/forkjoin-ai/synthetic-watermark) | -- | MIT | Watermarking for synthetic/AI-generated content. |
 | [wasm-analytics-engine](https://github.com/forkjoin-ai/wasm-analytics-engine) | `@affectively/wasm-analytics-engine` | MIT | Metrics computation, event processing, and funnel analytics. |
